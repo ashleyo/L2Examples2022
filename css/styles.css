@@ -1,9 +1,31 @@
-p { background-color: aquamarine;}
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Oxygen+Mono&family=Poppins:ital,wght@0,400;1,500&display=swap");
+body {
+  background-color: aquamarine;
+  font-family: "Poppins", sans-serif;
+}
 
-.bigger { font-size: 150%}
+.bigger {
+  font-size: 150%;
+}
 
-.lgimg { 
-    font-size: 140%; 
-    text-align: center;
-    font-family: 'Lucida Sans', Verdana, sans-serif;
+.lgimg {
+  font-size: 140%;
+  text-align: center;
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gluten", cursive;
+}
+.icon {
+  vertical-align: middle;
+}
+
+code {
+  font-family: "Oxygen Mono", monospace;
 }

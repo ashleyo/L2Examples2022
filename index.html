@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-            <title>A Web Page</title>
-            <link rel="stylesheet" href="css/styles.css"/>
-    </head>
+<head>
+
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+</head>
+
 <body>
     <h1>Home</h1>
     <nav><a href="src/page2.html">Page Two</a></nav>
 
-    <p class="bigger">This is a paragraph</p>
-    <p>This is a paragraph</p>
-    <p>This is a paragraph</p>
+    <p class="bigger">Use fonts responsibly and with thought. The Display font and the Body font used in this page,
+        clearly do not work well together.</p>
+
+    <p>This is a paragraph <span class="icon material-icons-outlined">settings</span>.
+        The <code>span</code> element, which we have not used before, is an inline element that can be used to wrap text
+        that needs specific selection or styling. In this case, marking a section of text to be rendered
+        in an icon font.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lacus vel diam consectetur molestie vel
+        id lectus. Quisque a facilisis nibh, non fermentum quam. Nam augue ipsum, tempus sit amet ligula ac, dignissim
+        varius nisi. Sed scelerisque blandit elit. Vivamus faucibus ipsum non neque consequat, id malesuada mauris
+        viverra. In pretium nibh in nunc dignissim, et pretium dolor ornare. Aliquam in purus eleifend enim luctus
+        sagittis. Mauris rutrum iaculis quam, a aliquet mi semper non. </p>
+
+    <section>The <code>section</code> element is an example of <a href="https://www.google.com/search?q=define+semantic">semantic</a> markup. It is a block element 
+        can be used 
+    identify a relatively independent part of some larger element.</section>
+
+    <section>
+        <h2>The CSS used on this page is</h2>
+        <pre>
+        <code>
+            @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Oxygen+Mono&family=Poppins:ital,wght@0,400;1,500&display=swap");
+            body {
+              background-color: aquamarine;
+              font-family: "Poppins", sans-serif;
+            }
+            
+            .bigger {
+              font-size: 150%;
+            }
+            
+            .lgimg {
+              font-size: 140%;
+              text-align: center;
+              font-family: "Lucida Sans", Verdana, sans-serif;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+              font-family: "Gluten", cursive;
+            }
+            .icon {
+              vertical-align: middle;
+            }
+            
+            code {
+              font-family: "Oxygen Mono", monospace;
+            }
+            
+        </code>
+        </pre>
+    </section>
 
 
 </body>
