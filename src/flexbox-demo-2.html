@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title></title>
+    <style>
+        body * {
+            border: 1px solid green
+        }
+    </style>
+
+
+</head>
+<style>
+
+    .page-wrapper { 
+        display: flex; 
+        flex-direction: column;
+        height: 100vh;
+    }
+    header { display: flex; text-align: center;}
+    main { 
+        flex: 1 1 auto;
+        display: flex; 
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+    .logo { flex: 0 0 10vw; }
+    .page-heading { flex: 1 1 0; }
+    .auth-box { flex: 0 0 15vw; }
+
+    /* make them bigger for looks only */
+    article {
+        width: 30%;
+        height: 30vh;
+    }
+    nav, footer { height: 10vh; }
+
+</style>
+<body>
+
+    <div class="page-wrapper">
+        <header>
+            <div class="logo">Logo</div>
+            <h1 class="page-heading">Header</h1>
+            <div class="auth-box">Login</div>
+        </header>
+        <nav>Nav</nav>
+        <main>
+            <article>Content 1</article>
+            <article>Content 2</article>
+        </main>
+        <footer>Footer</footer>
+    </div>
+
+
+
+
+</body>
+
+</html>
